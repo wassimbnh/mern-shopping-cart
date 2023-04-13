@@ -1,0 +1,44 @@
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .App .card {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .App .card2 {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    background-color: #DB7090;
+    animation: clignote 2s linear infinite;
+  }
+  
+  @media (max-width: 768px) {
+    .App .card {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .App .card {
+      width: 100%;
+    }
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  

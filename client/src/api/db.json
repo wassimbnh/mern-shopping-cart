@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Mouse NCV",
+      "price": "30",
+      "img": "product2.jpg",
+      "like": 0,
+      "quantity": 0,
+      "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page"
+    },
+    {
+      "name": "Pc MSI",
+      "price": "2000",
+      "img": "produit4.webp",
+      "like": 0,
+      "quantity": "11",
+      "description": "dsklfn fdgkngf sdfkdfj ",
+      "id": 3
+    }
+  ]
+}
